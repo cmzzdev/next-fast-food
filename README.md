@@ -34,8 +34,7 @@ DB UI app (free only in localhost)
 npx prisma studio
 ```
 
-Check Seeding Prisma doc for fill database registers
-When you have the seed file (prisma/seed.ts) you can execute this command
+Check Seeding Prisma doc for fill database registers. When you have the seed file (prisma/seed.ts) you can execute this command
 
 ```
 npx prisma db seed
