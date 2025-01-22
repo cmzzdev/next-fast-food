@@ -1,26 +1,26 @@
 export const categories = [
   {
-    slug: "cafe",
-    name: "Café",
+    slug: "coffee",
+    name: "Coffee",
   },
   {
-    slug: "hamburguesa",
-    name: "Hamburguesas",
+    slug: "burgers",
+    name: "Burgers",
   },
   {
     slug: "pizza",
     name: "Pizzas",
   },
   {
-    slug: "dona",
-    name: "Donas",
+    slug: "donuts",
+    name: "Donuts",
   },
   {
-    slug: "pastel",
-    name: "Pasteles",
+    slug: "cake",
+    name: "Cake",
   },
   {
-    slug: "galletas",
-    name: "Galletas",
+    slug: "cookies",
+    name: "Cookies",
   },
 ];
