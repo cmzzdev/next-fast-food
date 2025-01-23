@@ -22,3 +22,7 @@ export const OrderIdSchema = z.object({
       message: "Transform error, OrderIdSchema",
     }),
 });
+
+export const SearchSchema = z.object({
+  search: z.string().trim().min(1, { message: "Search should not be empty" }),
+});
