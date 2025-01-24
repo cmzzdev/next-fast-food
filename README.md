@@ -14,6 +14,19 @@ pnpm dev
 bun dev
 ```
 
+# Store images in cloudinary
+
+> [!WARNING]
+> Using next-cloudinary library to use their widget to upload images. Need a cloudinary account, also need several env vars.
+
+NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=""
+NEXT_PUBLIC_CLOUDINARY_API_KEY=""
+CLOUDINARY_API_SECRET=""
+CLOUDINARY_URL=""
+
+Check ImageUpload.tsx component. Must to use the Preset name, you will need to create in cloudinary dashboard before use it
+Example: uploadPreset="nextfastfood"
+
 # Database POSTGRESQL on Render
 
 Create POSTGRESQL database via render and use the env vars in your project
