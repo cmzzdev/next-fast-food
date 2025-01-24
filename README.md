@@ -20,11 +20,11 @@ bun dev
 > Using next-cloudinary library to use their widget to upload images. Need a cloudinary account, also need several env vars.
 
 NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=""  
-NEXT_PUBLIC_CLOUDINARY_API_KEY=""
-CLOUDINARY_API_SECRET=""
+NEXT_PUBLIC_CLOUDINARY_API_KEY=""  
+CLOUDINARY_API_SECRET=""  
 CLOUDINARY_URL=""
 
-Check ImageUpload.tsx component. Must to use the Preset name, you will need to create in cloudinary dashboard before use it
+Check ImageUpload.tsx component. Must to use the Preset name, you will need to create in cloudinary dashboard before use it. <br />
 Example: uploadPreset="nextfastfood"
 
 # Database POSTGRESQL on Render
