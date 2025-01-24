@@ -24,7 +24,7 @@ NEXT_PUBLIC_CLOUDINARY_API_KEY=""
 CLOUDINARY_API_SECRET=""  
 CLOUDINARY_URL=""
 
-Check ImageUpload.tsx component. Must to use the Preset name, you will need to create in cloudinary dashboard before use it. <br />
+Check ImageUpload.tsx component. Must to use the Preset name, you will need to create in cloudinary dashboard before use it. <br /><br />
 Example: uploadPreset="nextfastfood"
 
 # Database POSTGRESQL on Render
