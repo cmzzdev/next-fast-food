@@ -19,7 +19,7 @@ bun dev
 > [!WARNING]
 > Using next-cloudinary library to use their widget to upload images. Need a cloudinary account, also need several env vars.
 
-NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=""
+NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=""  
 NEXT_PUBLIC_CLOUDINARY_API_KEY=""
 CLOUDINARY_API_SECRET=""
 CLOUDINARY_URL=""
