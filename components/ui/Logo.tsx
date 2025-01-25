@@ -4,7 +4,7 @@ export default function Logo() {
   return (
     <div className="flex justify-center mt-5">
       <div className="relative w-40 h-40">
-        <Image fill alt="Logo fresh coffee" src={"/logo.svg"} />
+        <Image fill alt="Logo fresh coffee" src={"/logo.svg"} priority />
       </div>
     </div>
   );

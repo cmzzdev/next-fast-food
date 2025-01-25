@@ -29,12 +29,13 @@ export default async function ProductsPage({
 }: {
   searchParams: { page: string };
 }) {
-  const page = +searchParams.page || 1;
+  const { page } = await searchParams;
+  const Page: number = +page || 1;
   const pageSize = 10;
 
-  if (page < 0) redirect("/admin/products");
+  if (Page < 0) redirect("/admin/products");
 
-  const productsData = getProducts(page, pageSize);
+  const productsData = getProducts(Page, pageSize);
   const totalProductsData = productCount();
   const [products, totalProducts] = await Promise.all([
     productsData,
@@ -42,7 +43,7 @@ export default async function ProductsPage({
   ]);
   const totalPages = Math.ceil(totalProducts / pageSize);
 
-  if (page > totalPages) redirect("/admin/products");
+  if (Page > totalPages) redirect("/admin/products");
 
   return (
     <>
@@ -57,7 +58,7 @@ export default async function ProductsPage({
         <ProductSearchForm />
       </div>
       <ProductTable products={products} />
-      <ProductPagination page={page} totalPages={totalPages} />
+      <ProductPagination page={Page} totalPages={totalPages} />
     </>
   );
 }
