@@ -4,8 +4,8 @@ import Logo from "@/components/ui/Logo";
 import { OrderWithProducts } from "@/src/types";
 import LatestOrderItem from "@/components/order/LatestOrderItem";
 
-export default function OrdersPage() {
-  const url = "/orders/api";
+export default function OrdersCompletedPage() {
+  const url = "/admin/orders-completed/api";
   const fetcher = () =>
     fetch(url)
       .then((res) => res.json())

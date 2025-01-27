@@ -4,6 +4,7 @@ import AdminRoute from "./AdminRoute";
 const adminNavigation = [
   { url: "/admin/orders", text: "Orders", blank: false },
   { url: "/admin/products", text: "Products", blank: false },
+  { url: "/admin/orders-completed", text: "Orders completed", blank: false },
   { url: "/order/coffee", text: "Show Menu", blank: true },
 ];
 
